@@ -24,11 +24,9 @@ const TodoList = () => {
       {todoList.length < 1 &&
         {
           "Show All": (
-            <Empty>You haven't any todo list yet.Try adding one 😊. </Empty>
+            <Empty>You don't have any todo list yet.Try adding one 😊. </Empty>
           ),
-          "Show Completed": (
-            <Empty>You haven't completed any yet. Lazy 😒</Empty>
-          ),
+          "Show Completed": <Empty>You haven completed none. Lazy 😒</Empty>,
           "Show Uncompleted": (
             <Empty>You completed all of your List. otsukaresama 😍</Empty>
           ),
